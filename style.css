@@ -1,73 +1,73 @@
 @font-face {
-    font-family: Pokemon solid;
-    format: ("truetype");
-    src: url(./Pokemon\ Solid.ttf);
-  }
-  
-  body {
-    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-  }
-  
-  h1 {
-    font-family: Pokemon solid;
-    font-size: 30px;
-    color: rgb(129, 59, 42);
-    text-align: center;
-  }
-  
-  .pokemon-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-top: 20px;
-  }
-  
-  .pokemon-block {
-    border-radius: 10px;
-    padding: 10px;
-    font-family: Pokemon solid;
-    font-size: 10px;
-    background-color: white;
-    text-align: center;
-  }
-  
-  .pokemon-block p {
-    margin: 5px;
-  }
-  
-  .img-container {
-    background-image: url("./blob.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .name {
-    text-transform: capitalize;
-    font-size: 1.2rem;
-  }
-  
-  #spinner {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  
-  .card-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .pagination {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-  }
+  font-family: Pokemon solid;
+  format: ("truetype");
+  src: url(./img/Pokemon\ Solid.ttf);
+}
+
+body {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+
+h1 {
+  font-family: Pokemon solid;
+  font-size: 30px;
+  color: rgb(110, 22, 10);
+  text-align: center;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.pokemon-block {
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Pokemon solid;
+  font-size: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.pokemon-block p {
+  margin: 5px;
+}
+
+.img-container {
+  background-image: url("./img/blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+#spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.pagination {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
