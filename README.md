@@ -7,7 +7,7 @@ Data pulled from [Pokéapi - The Pokémon RESTful API](https://pokeapi.co/)
 ## Page view
 
 <p align="center">
-    <img src="view.png" width=60%>
+    <img src="view.jpg" width=60%>
 </p>
 
 You can also see the page [here](https://solturipe.github.io/PokeApi/)
